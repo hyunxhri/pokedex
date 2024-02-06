@@ -7,6 +7,8 @@ const routes = [
     { path: '/register', component: () => import('../pokemon/pages/RegisterPage.vue') },
     { path: '/profile', component: () => import('../pokemon/pages/UserProfile.vue') },
     { path: '/pokedex', component: () => import('../pokemon/pages/UserPokedex.vue') }, 
+    { path: '/contact', component: () => import('../pokemon/pages/ContactPage.vue') }, 
+
 ]
 
 const router = createRouter({ 
