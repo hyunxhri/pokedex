@@ -1,6 +1,13 @@
 # pokedex
 
+Es necesario instalar vue cli, así como los iconos de fontawesome. Aquí los comandos:
+
+```
 npm install -g @vue/cli
+npm install @fortawesome/vue-fontawesome
+npm install @fortawesome/fontawesome-svg-core
+npm install @fortawesome/free-solid-svg-icons
+```
 
 ## Project setup
 

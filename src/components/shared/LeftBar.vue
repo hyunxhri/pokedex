@@ -19,10 +19,10 @@ export default {
 <style lang="css">
     .connection-bar {
         width: 14vw;
-        height: 88vh;
+        height: inherit;
         background: #FF321D;
         border-bottom-left-radius: 70px;
-        border-right: 3px solid #000;
+        border-right: 3px solid #0C0C0D;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -32,7 +32,7 @@ export default {
             width: 8vw;
             height: 8vw;
             background: #D9D9D9;
-            border: 2px solid #000;
+            border: 2px solid #0C0C0D;
             border-radius: 50%;
             color: rgba(0, 0, 0, 0.5);
             font-size: 5vw;
@@ -55,9 +55,9 @@ export default {
                 height: 1vw;
                 background: #d6d6d6;
                 margin-bottom: 10px;
-                border-top: 2px solid #000;
-                border-bottom: 2px solid #000;
-                border-right: 2px solid #000;
+                border-top: 2px solid #0C0C0D;
+                border-bottom: 2px solid #0C0C0D;
+                border-right: 2px solid #0C0C0D;
             }
         }
     }

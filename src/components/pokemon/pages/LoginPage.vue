@@ -1,5 +1,6 @@
 <script>
 import LeftBar from '../../shared/LeftBar.vue'
+
 export default {
     components: {
         LeftBar
