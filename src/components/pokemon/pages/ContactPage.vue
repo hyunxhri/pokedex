@@ -26,6 +26,7 @@ export default {
       this.isMessageValid = this.message.trim().length > 20
       if (this.isEmailValid && this.isTitleValid && this.isMessageValid) {
         this.formSubmitted = true
+        setTimeout(() => {this.formSubmitted = false }, 2000)
       }
     }
   }
